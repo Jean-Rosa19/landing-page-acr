@@ -1,0 +1,167 @@
+/* Definições globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3c5158;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Estilos para o header principal */
+.hero {
+    width: 100%;
+    min-width: 90%;
+    height: 50vh;
+    background: url('../images/metal-worker.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px;
+    text-align: left;
+    opacity: 0.8;
+    position: relative;
+    border-radius: 12px;
+    /* Adiciona position: relative para que possamos posicionar o texto sobre a imagem */
+
+}
+
+
+/* Estilos para o título principal */
+h1 {
+    margin-bottom: 0.5rem;
+    color: rgb(238, 255, 0);
+    text-shadow: 2px 8px 10px rgb(38, 182, 248);
+    font-size: 3rem;
+    text-align: center;
+    
+
+
+}
+
+
+/* Estilos para o botão */
+.hero button {
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+    align-self: center;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.hero button:hover {
+    background-color: #6ab9f8;
+}
+
+
+
+.description {
+
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 20px auto;
+    max-width: 100%;
+    text-align: center;
+    /* Centraliza horizontalmente */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(22, 54, 199, 0.5);
+    padding: 40px;
+    /* Adiciona espaço interno para parecer um balão */
+    background-color: #6ab9f8;
+    /* Cor de fundo do balão */
+    border-radius: 10px;
+    /* Borda arredondada do balão */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra do balão */
+}
+
+
+
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+    .hero {
+        align-items: center;
+        /* Centraliza verticalmente em telas menores */
+        text-align: center;
+        /* Centraliza o texto em telas menores */
+    }
+
+    .button {
+        margin-top: 1rem;
+        /* Espaçamento superior menor em telas menores */
+    }
+}
+
+.trabalho h1 {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 8px 10px rgb(38, 182, 248);
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.inner {
+    display: flex;
+}
+
+.item {
+    min-height: 200px;
+    min-width: 400px;
+    padding: 14px;
+    border: none;
+}
+
+.item img {
+    width: 100%;
+    height: 90%;
+    border-radius: 12px;
+    pointer-events: none;
+}
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+}
+
+.contact {
+    display: flex; /* Torna o elemento um flex container */
+    justify-content: center; /* Alinha os itens horizontalmente no centro */
+    margin-bottom: 50px;
+}
+
+.contact button {
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.contact button:hover{
+    background-color: #6ab9f8;
+}
