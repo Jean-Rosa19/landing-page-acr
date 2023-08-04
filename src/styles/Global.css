@@ -70,6 +70,10 @@ h1 {
     background-color: #6ab9f8;
 }
 
+.hero button svg {
+    margin-right: 5px;
+}
+
 
 .description {
 
