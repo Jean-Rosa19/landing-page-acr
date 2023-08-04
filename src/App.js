@@ -82,7 +82,7 @@ function App() {
       </div>
       <footer>
         <div className="location">
-          <BiSolidMap />
+          <BiSolidMap size={20}/>
           <p>Localização: Rua Dr. Carlos Piolli Filho, 138 - Brasópolis, MG</p>
         </div>
       </footer>
