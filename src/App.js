@@ -38,7 +38,9 @@ function App() {
     <div className="container">
       <header className='hero'>
         <motion.h1 initial={{ y: -100 }} animate={{ y: 0, }} transition={{ duration: 2 }} >ACR SERRALHERIA</motion.h1>
-        <motion.button initial={{ y: -30 }} animate={{ y: 0, }} transition={{ duration: 2 }} onClick={openWhatsAppChat}>FAÇA UM ORÇAMENTO</motion.button>
+        <motion.button initial={{ y: -30 }} animate={{ y: 0, }} transition={{ duration: 2 }} onClick={openWhatsAppChat}>
+        <BsWhatsapp />
+          SOLICITE UM ORÇAMENTO</motion.button>
 
       </header>
       <main className='description'>

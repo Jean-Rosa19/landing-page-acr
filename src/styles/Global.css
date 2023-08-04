@@ -27,12 +27,12 @@ body {
     height: 50vh;
     background: url('../images/metal-worker.jpg') center/cover no-repeat;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     padding: 0 10px;
     text-align: left;
     opacity: 0.8;
-    position: relative;
+    /* position: relative; */
     border-radius: 12px;
     /* Adiciona position: relative para que possamos posicionar o texto sobre a imagem */
 
@@ -45,7 +45,7 @@ h1 {
     color: rgb(238, 255, 0);
     text-shadow: 2px 8px 10px rgb(38, 182, 248);
     font-size: 3rem;
-    text-align: center;
+    /* text-align: center; */
     
 
 
@@ -61,13 +61,17 @@ h1 {
     font-weight: bold;
     cursor: pointer;
     font-size: 12px;
-    align-self: center;
+    /* align-self: center; */
     border: none;
-    margin-bottom: 10px;
+    margin-top: 0.6rem;
 }
 
 .hero button:hover {
     background-color: #6ab9f8;
+}
+
+.hero svg {
+    margin-right: 5px;
 }
 
 
